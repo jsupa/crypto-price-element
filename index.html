@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>SomeOneOnTheTable</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <center id="coins">
+            <coin
+                asset-icon="https://raw.githubusercontent.com/jsupa/crypto-icons/main/icons/doge.png"
+                token="DOGE"
+                asset="USDT"
+                :c="getSingleCoin('DOGEUSDT')"
+            ></coin>
+            <br />
+            <coin
+                asset-icon="https://raw.githubusercontent.com/jsupa/crypto-icons/main/icons/xrp.png"
+                token="XRP"
+                asset="USDT"
+                :c="getSingleCoin('XRPUSDT')"
+            ></coin>
+            <br />
+            <coin
+                asset-icon="https://raw.githubusercontent.com/jsupa/crypto-icons/main/icons/snx.png"
+                token="SNX"
+                asset="USDT"
+                :c="getSingleCoin('SNXUSDT')"
+            ></coin>
+            <br />
+            <coin
+                asset-icon="https://raw.githubusercontent.com/jsupa/crypto-icons/main/icons/shib.png"
+                token="SHIB"
+                asset="USDT"
+                :c="getSingleCoin('SHIBUSDT')"
+            ></coin>
+            <br />
+            <coin
+                asset-icon="https://raw.githubusercontent.com/jsupa/crypto-icons/main/icons/jst.png"
+                token="JST"
+                asset="USDT"
+                :c="getSingleCoin('JSTUSDT')"
+            ></coin>
+        </center>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>

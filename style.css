@@ -1,0 +1,168 @@
+body {
+    background: linear-gradient(72.44deg, #0b0827 0%, #1b1646 100%);
+    margin: 50px 0;
+    padding: 0;
+}
+
+.coin_main {
+    overflow: auto;
+    position: relative;
+    width: 470px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(131deg, #4e2252 0%, #421446 100%);
+    border-radius: 8px;
+}
+.coin_main .coin_head {
+    background: linear-gradient(93.94deg, #603365 0%, #49174e 100%);
+    border-radius: 8px 8px 0px 0px;
+    height: 70%;
+}
+.coin_main .coin_chart {
+    padding: 5px;
+    height: 35px;
+}
+.coin_main .coin_chart polyline {
+    stroke: #fff;
+}
+.coin_main .coin_chart circle {
+    fill: #fff;
+}
+.coin_main .coin_some_effect {
+    position: absolute;
+    border-top-left-radius: 8px;
+    border-bottom: 150px solid rgba(255, 255, 255, 0.034);
+    border-right: 100px solid transparent;
+    width: 35%;
+}
+
+.coin_image {
+    height: 100%;
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+.coin_image img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.coin_info {
+    float: right;
+    height: 100%;
+    width: calc(100% - 100px);
+}
+.coin_info .coin_info_left {
+    position: relative;
+    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+}
+.coin_info .coin_info_left h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #c3a634;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.coin_info .coin_info_left h1 small {
+    font-weight: normal;
+    font-size: 15px;
+    color: #745b5b;
+}
+.coin_info .coin_info_left h1 small span {
+    font-size: 20px;
+    margin: 0 3px;
+}
+.coin_info .coin_info_left h2 {
+    margin: 0;
+    margin-top: 5px;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+.coin_info .coin_info_right {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+    text-align: right;
+    margin-right: 15px;
+}
+.coin_info .coin_info_right ul {
+    margin: 0;
+    padding: 0;
+}
+.coin_info .coin_info_right ul li {
+    list-style: none;
+    color: #a39898;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    margin: 4px 0;
+}
+.coin_info .coin_info_right ul li small {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    line-height: 15px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #745b5b;
+}
+.coin_info .coin_info_right ul li:first-child {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 17px;
+    color: #fff;
+    letter-spacing: 0.06em;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.loss {
+    background: linear-gradient(278deg, #401431 0%, #4b2630 100%);
+}
+.loss .coin_head {
+    background: linear-gradient(94.48deg, #460f0f -32.65%, #3f133b 95.3%);
+}
+.loss .coin_info .coin_info_right ul li:first-child {
+    color: crimson;
+}
+.loss .coin_chart polyline {
+    stroke: crimson;
+    stroke-width: 2;
+}
+.loss .coin_chart circle {
+    fill: crimson;
+}
+.loss .coin_info .coin_info_left h2 {
+    color: crimson;
+}
+
+.gain {
+    background: linear-gradient(278deg, #242a34 0%, #3c4c45 100%);
+}
+.gain .coin_head {
+    background: linear-gradient(94.52deg, #133f15 -32.66%, #252c35 100%);
+}
+.gain .coin_info .coin_info_right ul li:first-child {
+    color: limegreen;
+}
+.gain .coin_chart polyline {
+    stroke: limegreen;
+    stroke-width: 2;
+}
+.gain .coin_chart circle {
+    fill: limegreen;
+}
+.gain .coin_info .coin_info_left h2 {
+    color: limegreen;
+} /*# sourceMappingURL=test.css.map */
