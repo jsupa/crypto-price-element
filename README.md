@@ -18,7 +18,7 @@ Crypto price info boxes with binance api
     ></coin>
 </center>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
+<script src="https://creepy-corp.eu/git/jsupa/crypto-price-element/vue.min.js"></script>
 <script src="https://creepy-corp.eu/git/jsupa/crypto-price-element/script.js"></script>
 
 ```
@@ -27,7 +27,7 @@ Crypto price info boxes with binance api
 
 Demo : https://creepy-corp.eu/git/jsupa/crypto-price-element
 
-Editor : https://www.w3schools.com/code/tryit.asp?filename=GQKJ0XNE8IU6
+Editor : https://www.w3schools.com/code/tryit.asp?filename=GQKTNV524ETB
 
 <img src="https://creepy-corp.eu/git/jsupa/crypto-price-element/crypto-price-element-template-code.png" width="500px">
 <img src="https://creepy-corp.eu/git/jsupa/crypto-price-element/crypto-price-element-preview.png" width="500px">
