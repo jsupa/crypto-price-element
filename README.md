@@ -26,6 +26,7 @@ Crypto price info boxes with binance api
 ## Preview
 
 Demo : https://creepy-corp.eu/git/jsupa/crypto-price-element
+
 Editor : https://www.w3schools.com/code/tryit.asp?filename=GQKJ0XNE8IU6
 
 <img src="https://creepy-corp.eu/git/jsupa/crypto-price-element/crypto-price-element-template-code.png" width="500px">
