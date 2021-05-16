@@ -7,6 +7,8 @@ Crypto price info boxes with binance api
 ## Code
 
 ```html
+<link rel="stylesheet" href="https://raw.githubusercontent.com/jsupa/crypto-price-element/main/style.css" />
+
 <center id="coins">
     <coin
         asset-icon="https://raw.githubusercontent.com/jsupa/crypto-icons/main/icons/doge.png"
