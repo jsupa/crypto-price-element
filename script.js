@@ -92,8 +92,8 @@ Vue.component("coin", {
     </div>
     <div class="coin_chart">
         <linechart
-          :width="380"
-          :height="25"
+          :width="500"
+          :height="40"
           :values="c.history"
         ></linechart>
     </div>

@@ -24,6 +24,9 @@ body {
     padding: 5px;
     height: 35px;
 }
+.coin_main .coin_chart svg {
+    /* overflow: inherit; */
+}
 .coin_main .coin_chart polyline {
     stroke: #fff;
 }
@@ -165,4 +168,4 @@ body {
 }
 .gain .coin_info .coin_info_left h2 {
     color: limegreen;
-} /*# sourceMappingURL=test.css.map */
+}
