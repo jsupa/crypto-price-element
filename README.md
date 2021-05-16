@@ -30,4 +30,5 @@ Demo : https://creepy-corp.eu/git/jsupa/crypto-price-element
 Editor : https://www.w3schools.com/code/tryit.asp?filename=GQKTNV524ETB
 
 <img src="https://creepy-corp.eu/git/jsupa/crypto-price-element/crypto-price-element-template-code.png" width="500px">
-<img src="https://creepy-corp.eu/git/jsupa/crypto-price-element/crypto-price-element-preview.png" width="500px">
+<img src="https://creepy-corp.eu/git/jsupa/crypto-price-element/crypto-price-element-preview-gain.png" width="500px">
+<img src="https://creepy-corp.eu/git/jsupa/crypto-price-element/crypto-price-element-preview-loss.png" width="500px">
