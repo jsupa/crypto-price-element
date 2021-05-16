@@ -7,7 +7,7 @@ Crypto price info boxes with binance api
 ## Code
 
 ```html
-<link rel="stylesheet" href="https://raw.githubusercontent.com/jsupa/crypto-price-element/main/style.css" />
+<link rel="stylesheet" href="https://creepy-corp.eu/git/jsupa/crypto-price-element/style.css"/>
 
 <center id="coins">
     <coin
@@ -18,14 +18,15 @@ Crypto price info boxes with binance api
     ></coin>
 </center>
 
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
-<script src="https://raw.githubusercontent.com/jsupa/crypto-price-element/main/script.js"></script>
+<script src="https://creepy-corp.eu/git/jsupa/crypto-price-element/script.js"></script>
+
 ```
 
 ## Preview
 
 Demo : https://creepy-corp.eu/git/jsupa/crypto-price-element
+Editor : https://www.w3schools.com/code/tryit.asp?filename=GQKJ0XNE8IU6
 
 <img src="https://creepy-corp.eu/git/jsupa/crypto-price-element/crypto-price-element-template-code.png" width="500px">
 <img src="https://creepy-corp.eu/git/jsupa/crypto-price-element/crypto-price-element-preview.png" width="500px">
