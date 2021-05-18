@@ -10,12 +10,9 @@ Crypto price info boxes with binance api
 <link rel="stylesheet" href="https://creepy-corp.eu/git/jsupa/crypto-price-element/style.css"/>
 
 <center id="coins">
-    <coin
-        asset-icon="https://raw.githubusercontent.com/jsupa/crypto-icons/main/icons/doge.png"
-        token="DOGE"
-        asset="USDT"
-        :c="getSingleCoin('DOGEUSDT')"
-    ></coin>
+      <coin token="DOGE" asset="USDT" :c="getSingleCoin('DOGEUSDT')"></coin>
+      <br />
+      <coin token="XRP" asset="USDT" :c="getSingleCoin('XRPUSDT')"></coin>
 </center>
 
 <script src="https://creepy-corp.eu/git/jsupa/crypto-price-element/vue.min.js"></script>
