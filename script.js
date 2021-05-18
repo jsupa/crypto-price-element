@@ -72,7 +72,7 @@ Vue.component("coin", {
     <div class="coin_some_effect"></div>
     <div class="coin_head">
         <div class="coin_image">
-            <img :src="assetIcon" :alt="token"/>
+            <img :src="'https://raw.githubusercontent.com/jsupa/crypto-icons/main/icons/'+token.toLowerCase()+'.png'" :alt="token"/>
         </div>
         <div class="coin_info">
             <div class="coin_info_left">

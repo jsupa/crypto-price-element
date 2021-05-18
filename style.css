@@ -49,6 +49,8 @@ body {
 }
 .coin_image img {
     position: relative;
+    height: 64px;
+    border-radius: 100%;
     top: 50%;
     transform: translateY(-50%);
 }
